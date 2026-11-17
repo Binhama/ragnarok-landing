@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#08070c">
+    <meta name="description" content="Explore Midgard at your own pace in Ragnarok: The New World. Download free on Steam, create a Gravity account, and log in to play.">
+    <title>Ragnarok: The New World — Explore Midgard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="assets/images/hero-1.jpg" fetchpriority="high">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+    <canvas class="atmosphere" id="atmosphere" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Ragnarok: The New World">
+        <span class="wordmark-r" aria-hidden="true">R</span>
+        <span class="wordmark-copy">RAGNAROK<small>THE NEW WORLD</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        <span class="sr-only" data-i18n="menu">Menu</span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation" data-i18n-aria="nav_label">
+        <a href="#adventure" data-i18n="nav_world">The world</a>
+        <a href="#classes" data-i18n="nav_classes">Classes</a>
+        <a href="#start" data-i18n="nav_start">How to start</a>
+        <a href="#faq" data-i18n="nav_faq">FAQ</a>
+        <div class="language-switcher" aria-label="Choose language" data-i18n-aria="language_label">
+          <button type="button" class="language-button" data-language="en" aria-pressed="false">EN</button>
+          <span aria-hidden="true">|</span>
+          <button type="button" class="language-button" data-language="id" aria-pressed="false">ID</button>
+          <span aria-hidden="true">|</span>
+          <button type="button" class="language-button" data-language="th" aria-pressed="false">TH</button>
+        </div>
+        <a class="button button-small" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" data-i18n="steam_cta">Download on Steam - Free</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-image" aria-hidden="true">
+          <img src="assets/images/hero-1.jpg" alt="" width="1920" height="1080" fetchpriority="high">
+        </div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true">✦</span><span data-i18n="hero_badge">SEASON 3 — EXPLORE MIDGARD</span></p>
+          <h1><span data-i18n="hero_title">Explore Midgard</span> <em data-i18n="hero_title_em">at your own pace, on mobile and PC.</em></h1>
+          <p class="hero-subtitle" data-i18n="hero_subtitle">Discover a fantastic MMORPG, explore its gameplay and choose how to live the adventure.</p>
+          <p class="friend-line" data-i18n="friend_line">Your friends are already in Midgard. Don’t be left behind.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" data-i18n="steam_cta">Download on Steam - Free</a>
+            <a class="text-link" href="#start"><span data-i18n="how_to_start">How to start</span><span aria-hidden="true">↓</span></a>
+          </div>
+          <p class="trust-line" data-i18n="trust_line">Free-to-Play <b>•</b> PC via Steam <b>•</b> Gravity Account Required <b>•</b> 120MB</p>
+        </div>
+        <div class="hero-coordinates" aria-hidden="true">MIDGARD <span>—</span> 01 / 08</div>
+        <a class="hero-scroll" href="#adventure"><span data-i18n="scroll">Scroll to explore</span><span aria-hidden="true"></span></a>
+      </section>
+
+      <div class="marquee" aria-label="Game highlights" data-i18n-aria="marquee_label">
+        <div class="marquee-track" aria-hidden="true">
+          <span data-i18n="marquee">FREE TO PLAY <b>✦</b> NO PAY-TO-WIN <b>✦</b> PLAY WITH FRIENDS <b>✦</b> 8 CLASSES <b>✦</b></span>
+          <span data-i18n="marquee">FREE TO PLAY <b>✦</b> NO PAY-TO-WIN <b>✦</b> PLAY WITH FRIENDS <b>✦</b> 8 CLASSES <b>✦</b></span>
+        </div>
+      </div>
+
+      <section class="section adventure-section" id="adventure">
+        <div class="section-heading reveal">
+          <p class="section-label"><span>01</span><span data-i18n="benefits_label">YOUR ADVENTURE, YOUR RULES</span></p>
+          <h2><span data-i18n="benefits_title">Make Midgard</span> <em data-i18n="benefits_title_em">your own.</em></h2>
+          <p data-i18n="benefits_intro">Choose how you play. There’s more than one way to find your place here.</p>
+        </div>
+        <div class="benefit-grid">
+          <article class="benefit reveal">
+            <span class="benefit-index">01 / PATH</span>
+            <div class="rune-icon" aria-hidden="true">ᚦ</div>
+            <h3 data-i18n="benefit_one_title">Freedom of style</h3>
+            <p data-i18n="benefit_one_text">Eight playable classes and character customization give you room to find a style that feels like yours.</p>
+          </article>
+          <article class="benefit reveal">
+            <span class="benefit-index">02 / PACE</span>
+            <div class="rune-icon" aria-hidden="true">ᛞ</div>
+            <h3 data-i18n="benefit_two_title">Progress on your time</h3>
+            <p data-i18n="benefit_two_text">Offline progression helps your adventure keep moving, even when you step away.</p>
+          </article>
+          <article class="benefit reveal">
+            <span class="benefit-index">03 / WORLD</span>
+            <div class="rune-icon" aria-hidden="true">ᛉ</div>
+            <h3 data-i18n="benefit_three_title">Keep the journey close</h3>
+            <p data-i18n="benefit_three_text">Explore the game’s multi-device possibilities and find a way to play that fits your day.</p>
+          </article>
+        </div>
+        <div class="section-cta"><a class="text-link" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" data-i18n="steam_cta">Download on Steam - Free <span aria-hidden="true">↗</span></a></div>
+      </section>
+
+      <section class="section classes-section" id="classes">
+        <div class="section-heading reveal">
+          <p class="section-label"><span>02</span><span data-i18n="classes_label">FIND YOUR WAY TO FIGHT</span></p>
+          <h2><span data-i18n="classes_title">Eight classes.</span> <em data-i18n="classes_title_em">One Midgard.</em></h2>
+          <p data-i18n="classes_intro">A different path for every kind of adventurer. Find the class that calls to you.</p>
+        </div>
+        <div class="class-grid">
+          <article class="class-card reveal"><img src="assets/images/class-warrior.jpg" alt="Warrior class artwork" width="1920" height="1080" loading="lazy" decoding="async" data-i18n-alt="class_art_alt"><div class="class-overlay"><span data-i18n="class_label_01">CLASS 01</span><h3 data-i18n="class_one">Warrior</h3><div class="stat-bars" aria-hidden="true"><span>ATK<i></i></span><span>DEF<i></i></span><span>SPD<i></i></span></div></div></article>
+          <article class="class-card reveal"><img src="assets/images/class-mage.jpg" alt="Mage class artwork" width="1920" height="1080" loading="lazy" decoding="async" data-i18n-alt="class_art_alt"><div class="class-overlay"><span data-i18n="class_label_02">CLASS 02</span><h3 data-i18n="class_two">Mage</h3><div class="stat-bars" aria-hidden="true"><span>ATK<i></i></span><span>DEF<i></i></span><span>SPD<i></i></span></div></div></article>
+          <article class="class-card reveal"><img src="assets/images/hero-2.jpg" alt="Ragnarok adventurer class artwork" width="1920" height="1080" loading="lazy" decoding="async" data-i18n-alt="class_art_alt"><div class="class-overlay"><span data-i18n="class_label_03">CLASS 03</span><h3 data-i18n="class_three">Discover in-game</h3><div class="stat-bars" aria-hidden="true"><span>ATK<i></i></span><span>DEF<i></i></span><span>SPD<i></i></span></div></div></article>
+          <article class="class-card reveal"><img src="assets/images/hero-3.jpg" alt="Ragnarok adventurer class artwork" width="1920" height="1080" loading="lazy" decoding="async" data-i18n-alt="class_art_alt"><div class="class-overlay"><span data-i18n="class_label_04">CLASS 04</span><h3 data-i18n="class_four">Discover in-game</h3><div class="stat-bars" aria-hidden="true"><span>ATK<i></i></span><span>DEF<i></i></span><span>SPD<i></i></span></div></div></article>
+          <article class="class-card reveal"><img src="assets/images/hero-4.jpg" alt="Ragnarok adventurer class artwork" width="1920" height="1080" loading="lazy" decoding="async" data-i18n-alt="class_art_alt"><div class="class-overlay"><span data-i18n="class_label_05">CLASS 05</span><h3 data-i18n="class_five">Discover in-game</h3><div class="stat-bars" aria-hidden="true"><span>ATK<i></i></span><span>DEF<i></i></span><span>SPD<i></i></span></div></div></article>
+          <article class="class-card reveal"><img src="assets/images/world-midgard.jpg" alt="Ragnarok adventurer class artwork" width="1920" height="1080" loading="lazy" decoding="async" data-i18n-alt="class_art_alt"><div class="class-overlay"><span data-i18n="class_label_06">CLASS 06</span><h3 data-i18n="class_six">Discover in-game</h3><div class="stat-bars" aria-hidden="true"><span>ATK<i></i></span><span>DEF<i></i></span><span>SPD<i></i></span></div></div></article>
+          <article class="class-card reveal"><img src="assets/images/gameplay.jpg" alt="Ragnarok adventurer class artwork" width="1920" height="1080" loading="lazy" decoding="async" data-i18n-alt="class_art_alt"><div class="class-overlay"><span data-i18n="class_label_07">CLASS 07</span><h3 data-i18n="class_seven">Discover in-game</h3><div class="stat-bars" aria-hidden="true"><span>ATK<i></i></span><span>DEF<i></i></span><span>SPD<i></i></span></div></div></article>
+          <article class="class-card reveal"><img src="assets/images/hero-1.jpg" alt="Ragnarok adventurer class artwork" width="1920" height="1080" loading="lazy" decoding="async" data-i18n-alt="class_art_alt"><div class="class-overlay"><span data-i18n="class_label_08">CLASS 08</span><h3 data-i18n="class_eight">Discover in-game</h3><div class="stat-bars" aria-hidden="true"><span>ATK<i></i></span><span>DEF<i></i></span><span>SPD<i></i></span></div></div></article>
+        </div>
+        <p class="fine-print" data-i18n="class_note">Class names and stat bars are illustrative. Check the game for class skills and details.</p>
+        <div class="section-cta"><a class="text-link" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" data-i18n="steam_cta">Download on Steam - Free <span aria-hidden="true">↗</span></a></div>
+      </section>
+
+      <section class="world-section" id="world">
+        <div class="world-backdrop" aria-hidden="true"></div>
+        <div class="section world-inner">
+          <div class="section-heading reveal">
+            <p class="section-label"><span>03</span><span data-i18n="world_label">SEE WHAT’S OUT THERE</span></p>
+            <h2><span data-i18n="world_title">There’s a world</span> <em data-i18n="world_title_em">beyond the map.</em></h2>
+            <p data-i18n="world_intro">Take a first look at Midgard and the places waiting along your journey.</p>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-card gallery-tall reveal"><img src="assets/images/world-midgard.jpg" alt="A view across the world of Midgard" width="1920" height="1080" loading="lazy" decoding="async" data-i18n-alt="world_alt"><figcaption data-i18n="gallery_one">A world to call home</figcaption></figure>
+            <figure class="gallery-card reveal"><img src="assets/images/hero-2.jpg" alt="An adventurer exploring Midgard" width="1920" height="1080" loading="lazy" decoding="async" data-i18n-alt="explore_alt"><figcaption data-i18n="gallery_two">Set out and see where you end up</figcaption></figure>
+            <figure class="gallery-card reveal"><img src="assets/images/gameplay.jpg" alt="A moment from an adventure in Ragnarok" width="1920" height="1080" loading="lazy" decoding="async" data-i18n-alt="gameplay_alt"><figcaption data-i18n="gallery_three">Your story is yours to shape</figcaption></figure>
+          </div>
+          <p class="image-caption" data-i18n="gameplay_caption">Real gameplay captures</p>
+          <div class="section-cta"><a class="text-link" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" data-i18n="steam_cta">Download on Steam - Free <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="section start-section" id="start">
+        <div class="section-heading reveal">
+          <p class="section-label"><span>04</span><span data-i18n="start_label">FIRST LOGIN, NO GUESSWORK</span></p>
+          <h2><span data-i18n="start_title">Three steps</span> <em data-i18n="start_title_em">to Midgard.</em></h2>
+          <p data-i18n="start_intro">From Steam page to first login: here’s the route.</p>
+        </div>
+        <ol class="steps-grid">
+          <li class="step reveal"><span class="step-icon" aria-hidden="true">01</span><h3 data-i18n="step_one_title">Go to Steam</h3><p data-i18n="step_one_text">Open the official game page and add Ragnarok: The New World to your library.</p></li>
+          <li class="step reveal"><span class="step-icon" aria-hidden="true">02</span><h3 data-i18n="step_two_title">Install + create your account</h3><p data-i18n="step_two_text">Install the game, then follow the official steps to create a Gravity account. It takes about 2 minutes.</p></li>
+          <li class="step reveal"><span class="step-icon" aria-hidden="true">03</span><h3 data-i18n="step_three_title">Log in and play</h3><p data-i18n="step_three_text">Launch the game, log in with your Gravity account and step into Midgard.</p></li>
+        </ol>
+        <aside class="account-callout reveal">
+          <span class="callout-mark" aria-hidden="true">i</span>
+          <div><h3 data-i18n="account_title">Why a Gravity account?</h3><p data-i18n="account_text">It’s required to save progress and access servers. Setup takes about 2 minutes, one time.</p></div>
+        </aside>
+        <div class="section-cta"><a class="text-link" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" data-i18n="steam_cta">Download on Steam - Free <span aria-hidden="true">↗</span></a></div>
+      </section>
+
+      <section class="faq-section" id="faq">
+        <div class="section faq-inner">
+          <div class="section-heading reveal">
+            <p class="section-label"><span>05</span><span data-i18n="faq_label">BEFORE YOU LOG IN</span></p>
+            <h2><span data-i18n="faq_title">Quick answers.</span> <em data-i18n="faq_title_em">Then adventure.</em></h2>
+            <p data-i18n="faq_intro">The essentials, without the side quest.</p>
+          </div>
+          <div class="faq-list">
+            <details class="faq-item reveal"><summary data-i18n="faq_one_q">Is the game free to play?</summary><p data-i18n="faq_one_a">Yes. Ragnarok: The New World is free to play, with optional in-app purchases. See Steam for current details.</p></details>
+            <details class="faq-item reveal"><summary data-i18n="faq_two_q">What languages are available?</summary><p data-i18n="faq_two_a">For the latest supported language information, check the game’s Steam store page.</p></details>
+            <details class="faq-item reveal"><summary data-i18n="faq_three_q">Do I need a Gravity account?</summary><p data-i18n="faq_three_a">Yes. A Gravity account is required to save progress and access servers. Create one during setup; it takes about 2 minutes.</p></details>
+            <details class="faq-item reveal">
+              <summary data-i18n="faq_four_q">What are the PC requirements?</summary>
+              <p data-i18n="faq_four_a">Requirements can change. Check the Steam store page for the latest minimum and recommended specifications before installing.</p>
+              <div class="requirement-grid">
+                <article class="requirement-card">
+                  <h3 data-i18n="ess_storage_title">STORAGE</h3>
+                  <p data-i18n="ess_storage_text">PC: 30GB (SSD) / Mobile: 10GB free</p>
+                </article>
+                <article class="requirement-card">
+                  <h3 data-i18n="ess_ram_title">RAM / MEMORY</h3>
+                  <p data-i18n="ess_ram_text">PC: 12GB Min / 16GB Rec / Mobile: 4GB+</p>
+                </article>
+              </div>
+              <p class="requirement-note" data-i18n="ess_mobile_note">Mobile needs less than PC.</p>
+            </details>
+            <details class="faq-item reveal"><summary data-i18n="faq_five_q">Which platforms can I play on?</summary><p data-i18n="faq_five_a">This page links to the PC version on Steam. Check the official store page for current platform availability.</p></details>
+          </div>
+          <div class="section-cta"><a class="text-link" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" data-i18n="steam_cta">Download on Steam - Free <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="closing-section">
+        <div class="closing-art" aria-hidden="true"><img src="assets/images/hero-4.jpg" alt="" width="1920" height="1080" loading="lazy" decoding="async"></div>
+        <div class="closing-shade" aria-hidden="true"></div>
+        <div class="closing-content reveal">
+          <p class="section-label"><span>✦</span><span data-i18n="closing_label">YOUR NEXT CHAPTER</span></p>
+          <h2><span data-i18n="closing_title">Your Legend</span> <em data-i18n="closing_title_em">Starts in Midgard.</em></h2>
+          <p data-i18n="closing_text">Free-to-Play. Create a Gravity account. First login in 3 steps.</p>
+          <a class="button button-primary button-large" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" data-i18n="steam_cta">Download on Steam - Free</a>
+          <p class="closing-note" data-i18n="closing_note">Free-to-Play · Create a Gravity account · First login in 3 steps</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark" href="#top" aria-label="Ragnarok: The New World">
+        <span class="wordmark-r" aria-hidden="true">R</span>
+        <span class="wordmark-copy">RAGNAROK<small>THE NEW WORLD</small></span>
+      </a>
+      <p data-i18n="footer">Ragnarok: The New World is published by Gravity Game Vision.</p>
+      <div class="footer-end">
+        <div class="language-switcher" aria-label="Choose language" data-i18n-aria="language_label">
+          <button type="button" class="language-button" data-language="en" aria-pressed="false">EN</button><span aria-hidden="true">|</span>
+          <button type="button" class="language-button" data-language="id" aria-pressed="false">ID</button><span aria-hidden="true">|</span>
+          <button type="button" class="language-button" data-language="th" aria-pressed="false">TH</button>
+        </div>
+        <a class="back-top" href="#top"><span data-i18n="back_top">Back to top</span><span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+    <div class="sticky-cta"><a class="button button-primary" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" data-i18n="steam_cta">Download on Steam - Free</a></div>
+  </body>
+</html>
