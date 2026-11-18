@@ -178,10 +178,10 @@ h1, h2, h3 { font-family: "Cinzel", Georgia, serif; font-weight: 600; }
 }
 .eyebrow-mark { color: var(--ember); font-size: 1rem; }
 .hero h1 {
-  max-width: 780px;
+  max-width: px;
   margin-bottom: 1.25rem;
-  font-size: clamp(3.1rem, 7.5vw, 7rem);
-  letter-spacing: -.055em;
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  letter-spacin 620g: -.055em;
   line-height: 1.03;
 }
 .hero h1 em, h2 em { color: var(--gold); font-style: normal; }
@@ -409,4 +409,51 @@ h1, h2, h3 { font-family: "Cinzel", Georgia, serif; font-weight: 600; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .atmosphere { display: none; }
+}
+.hero {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content, .hero h1, .hero p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h3, .section-title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-head, .section-head *, 
+.section-title, .section-title * {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.section-title {
+  font-size: clamp(2rem, 4.5vw, 3.2rem) !important;
+  line-height: 1.1 !important;
+}
+body, main, section, div {
+  text-align: center !important;
+}
+
+h1, h2, h3, h4, p, span {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 900px !important;
+}
+
+.hero h1 {
+  width: 100% !important;
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
